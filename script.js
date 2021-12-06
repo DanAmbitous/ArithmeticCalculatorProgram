@@ -10,6 +10,5 @@ equationInput.addEventListener("input", (e) => {
 
 function equationCalculator() {
   const userInput = equationInput.value
-  // const arithmeticSymbols =
-  outputTextbox.textContent = userInput
+  const arithmeticSymbols = (outputTextbox.textContent = userInput) //
 }
